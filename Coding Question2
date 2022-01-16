@@ -21,13 +21,14 @@ public class printArrayInStars {
 		
 		for (int i=0;i<num_items; i++)
 		{
+			System.out.println("");
 			System.out.println(i + ":");
 			for(int a=0; a<items[i];a++)
 			{
 				System.out.print("*");
 			}
 			System.out.println("(" + items[i] + ")");
-			System.out.println();
+			System.out.println("");
 		}
 	}
 
