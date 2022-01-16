@@ -27,8 +27,21 @@ public class Question1 {
 			System.out.println("Sorry, no bonus");
 		}
 			double salary1=2800, salary2=3000;
-			System.out.println(Math.max(salary1, salary2));
+			System.out.println("The highest salary is : "+Math.max(salary1, salary2));
+			
 		System.out.println("Please enter your age: ");
 		int age1=sc.nextInt();
 		int age2=sc.nextInt();
 		int age3=sc.nextInt();
+		
+		int temp =age1>age2?age1:age2;
+		int largest=age3>temp?age3:temp;
+		System.out.println("The largest number is: "+largest);
+		
+
+			
+			
+			
+}
+
+	}
